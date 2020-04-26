@@ -1,0 +1,25 @@
+{
+  "name": "megahack",
+  "version": "1.0.0",
+  "description": "projeto para o Megahack 04/2020",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasenbr/megahack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasenbr/megahack/issues"
+  },
+  "homepage": "https://github.com/wasenbr/megahack#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
