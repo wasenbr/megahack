@@ -1,6 +1,20 @@
 [{
-
+    "nomeEmpresa": "Itau",
+    "ticker": "ITUB4",
+    "preco": 10,
+    "tipo": "ação",
+    "percVolatilidade": 10,
+    "percDividendos": 0.02,
+    "freqDividendos": 5,
+    "setor": "bancos"
 },
 {
-
+    "nomeEmpresa": "Bradesco",
+    "ticker": "BBDC",
+    "preco": 18,
+    "tipo": "ação",
+    "percVolatilidade": 12,
+    "percDividendos": 0.015,
+    "freqDividendos": 5,
+    "setor": "bancos"
 }]
