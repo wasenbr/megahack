@@ -1,0 +1,11 @@
+#game-background {
+    position: absolute;
+
+    background-color: gray !important;
+    // background: url('../../../assets/img/city-bg.png') no-repeat center center fixed;
+    
+    z-index: 1;
+
+    height: 100%;
+    width: 100%;
+}
