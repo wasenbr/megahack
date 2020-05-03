@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './clock.component.html',
   styleUrls: ['./clock.component.scss']
 })
+
 export class ClockComponent implements OnInit {
+  constructor () {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

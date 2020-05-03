@@ -6,8 +6,9 @@ import { DockComponent } from './components/dock/dock.component';
 import { GameContextContainerComponent } from './components/game-context-container/game-context-container.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GameBackgroundComponent } from './components/game-background/game-background.component';
-import { GameStatisticsContainerComponent } from './components/game-statistics-container/game-statistics-container.component';
-import { ClockComponent } from './components/game-statistics-container/clock/clock.component';
+// import { MatIconModule } from '@angular/material/icon';
+import { GameStatisticsContainerModule } from './components/game-statistics-container/game-statistics-container.module';
+import { ClockModule } from './components/game-statistics-container/clock/clock.module';
 
 @NgModule({
   declarations: [
@@ -15,12 +16,13 @@ import { ClockComponent } from './components/game-statistics-container/clock/clo
     DockComponent,
     GameContextContainerComponent,
     GameBackgroundComponent,
-    GameStatisticsContainerComponent,
-    ClockComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    // MatIconModule,
+    GameStatisticsContainerModule,
+    ClockModule
   ],
   providers: [],
   bootstrap: [AppComponent]
