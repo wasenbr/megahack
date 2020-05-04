@@ -8,5 +8,6 @@
         "**/node_modules": true,
         "**/e2e": true,
         "**/package-lock.json": true
-    }
+    },
+    "explorer.compactFolders": false
 }
