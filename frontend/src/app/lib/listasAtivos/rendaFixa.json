@@ -1,0 +1,14 @@
+[{
+    "investimentoMinimo": 100,
+    "emissor": "Banco Pan",
+    "taxaJuros": 0.05,
+    "liquidez": "mensal",
+    "risco": "baixo"
+},
+{
+    "investimentoMinimo": 500,
+    "emissor": "Banco ABC",
+    "taxaJuros": 0.06,
+    "liquidez": "mensal",
+    "risco": "baixo"
+}]

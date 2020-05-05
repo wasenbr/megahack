@@ -1,0 +1,21 @@
+<div id="profissoes-content">
+    <div class="profissoes-header">
+        <mat-icon class="cursor-pointer btn-back">keyboard_backspace</mat-icon>
+        <span>agência de empregos</span>
+    </div>
+
+    <div class="profissoes-body">
+        <mat-list role="list" >
+            <mat-list-item 
+                class="profissao-item"
+                *ngFor="let profissao of profissoes" 
+                role="listitem">
+
+                <h5 class="p">{{ profissao.nome }}</h5>
+                <span class="profissao-salario profissao-item-line">
+                    R$ {{ profissao.salarioMin }}
+                </span>
+            </mat-list-item>
+        </mat-list>
+    </div>
+</div>

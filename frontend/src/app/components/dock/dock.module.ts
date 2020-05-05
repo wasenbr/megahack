@@ -1,23 +1,28 @@
+
+
+
+
 // import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MatTooltipModule } from '@angular/material/tooltip'; 
 
-import { ClockComponent } from './clock.component'
-import { MatIconModule } from '@angular/material/icon';
+import { DockComponent } from './dock.component';
 
 @NgModule({
   declarations: [
-    ClockComponent
+    DockComponent
   ],
   entryComponents: [
     
   ],
   imports: [
     CommonModule,
-    MatIconModule
-    
+    MatTooltipModule
   ],
-  exports: [ClockComponent]
+  exports: [
+    DockComponent
+  ]
 })
 
-export class ClockModule { }
+export class DockModule { }

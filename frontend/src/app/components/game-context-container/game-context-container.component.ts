@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './game-context-container.component.html',
   styleUrls: ['./game-context-container.component.scss']
 })
+
 export class GameContextContainerComponent implements OnInit {
 
   constructor() { }

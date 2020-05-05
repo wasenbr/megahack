@@ -1,0 +1,54 @@
+
+.profissoes-header {
+    width: 100%;
+    display: flex;
+    
+}
+
+.profissoes-body {
+    width: 100%;
+    
+}
+
+.profissoes-header span {
+    vertical-align: middle;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#profissoes-content {
+    padding: 20px;
+}
+
+
+.btn-back {
+    cursor: pointer;
+    background-color: #c6c6c644;
+    color: black;
+
+    border-radius: 15px;
+    padding: 2px;
+}
+
+::ng-deep .mat-list-item-content {
+    display: block !important;
+    padding-bottom: 5px !important;
+}
+
+.profissao-item-line {
+    display: flex;
+}
+
+.profissao-item h5 {
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.profissao-salario {
+    color: #85bb65;
+    font-size: 12px !important;
+}
+
+.requesito-item {
+    font-size: 12px;
+    padding: 0px 2px;
+}
